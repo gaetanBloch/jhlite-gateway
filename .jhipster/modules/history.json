@@ -90,5 +90,16 @@
       "indentSize" : 2,
       "serverPort" : 8080
     }
+  }, {
+    "module" : "checkstyle",
+    "date" : "2023-12-08T07:29:50.073479Z",
+    "properties" : {
+      "packageName" : "com.mycompany.myapp",
+      "projectName" : "JHipster Sample Application",
+      "baseName" : "jhipsterSampleApplication",
+      "endOfLine" : "lf",
+      "indentSize" : 2,
+      "serverPort" : 8080
+    }
   } ]
 }

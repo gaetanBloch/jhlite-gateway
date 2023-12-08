@@ -79,3 +79,5 @@ application:
     ehcache:
       time-to-live-seconds: 3600
       max-entries: 100
+mongock:
+  migration-scan-package: com.mycompany.myapp

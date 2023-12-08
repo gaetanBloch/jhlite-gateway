@@ -70,5 +70,6 @@ docker compose -f src/main/docker/akhq.yml up -d
 - [Jpa pages](documentation/jpa-pages.md)
 - [Logs Spy](documentation/logs-spy.md)
 - [Mongock](documentation/mongock.md)
+- [Cucumber](documentation/cucumber.md)
 
 <!-- jhipster-needle-documentation -->

@@ -11,6 +11,18 @@ spring:
       fail-fast: true
     compatibility-verifier:
       enabled: false
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          predicates[0]:
+            name: Path
+            args[pattern]: '''/services/''+serviceId.toLowerCase()+''/**'''
+          filters[0]:
+            args[replacement]: '''/${remaining}'''
+            name: RewritePath
+            args[regexp]: '''/services/'' + serviceId.toLowerCase() + ''/(?<remaining>.*)'''
+          lower-case-service-id: true
   application:
     name: jhipsterSampleApplication
 jhipster:

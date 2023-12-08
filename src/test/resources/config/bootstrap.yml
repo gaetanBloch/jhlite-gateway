@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: jhipsterSampleApplication
+  cloud:
+    config:
+      enabled: false

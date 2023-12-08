@@ -323,5 +323,17 @@
       "serverPort" : 8080,
       "configurationFormat" : "yaml"
     }
+  }, {
+    "module" : "spring-boot-webflux-empty",
+    "date" : "2023-12-08T07:30:55.737443Z",
+    "properties" : {
+      "packageName" : "com.mycompany.myapp",
+      "projectName" : "JHipster Sample Application",
+      "baseName" : "jhipsterSampleApplication",
+      "endOfLine" : "lf",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "configurationFormat" : "yaml"
+    }
   } ]
 }

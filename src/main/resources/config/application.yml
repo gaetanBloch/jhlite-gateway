@@ -81,3 +81,21 @@ application:
       max-entries: 100
 mongock:
   migration-scan-package: com.mycompany.myapp
+management:
+  endpoints:
+    web:
+      base-path: /management
+      exposure:
+        include:
+        - configprops
+        - env
+        - health
+        - info
+        - logfile
+        - loggers
+        - threaddump
+  endpoint:
+    health:
+      probes:
+        enabled: true
+      show-details: always

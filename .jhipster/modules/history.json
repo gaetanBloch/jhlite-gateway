@@ -419,5 +419,17 @@
       "serverPort" : 8080,
       "configurationFormat" : "yaml"
     }
+  }, {
+    "module" : "spring-boot-actuator",
+    "date" : "2023-12-08T07:31:18.052749Z",
+    "properties" : {
+      "packageName" : "com.mycompany.myapp",
+      "projectName" : "JHipster Sample Application",
+      "baseName" : "jhipsterSampleApplication",
+      "endOfLine" : "lf",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "configurationFormat" : "yaml"
+    }
   } ]
 }

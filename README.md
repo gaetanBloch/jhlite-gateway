@@ -49,6 +49,10 @@ docker compose -f src/main/docker/postgresql.yml up -d
 docker compose -f src/main/docker/kafka.yml up -d
 ```
 
+```bash
+docker compose -f src/main/docker/akhq.yml up -d
+```
+
 
 <!-- jhipster-needle-startupCommand -->
 

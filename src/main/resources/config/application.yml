@@ -74,3 +74,8 @@ kafka:
     '[group.id]': myapp
   polling:
     timeout: 10000
+application:
+  cache:
+    ehcache:
+      time-to-live-seconds: 3600
+      max-entries: 100

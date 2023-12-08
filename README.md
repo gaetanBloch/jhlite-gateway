@@ -64,5 +64,6 @@ docker compose -f src/main/docker/kafka.yml up -d
 - [Apache Kafka](documentation/apache-kafka.md)
 - [Caffeine](documentation/caffeine.md)
 - [Jpa pages](documentation/jpa-pages.md)
+- [Logs Spy](documentation/logs-spy.md)
 
 <!-- jhipster-needle-documentation -->

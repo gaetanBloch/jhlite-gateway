@@ -9,5 +9,15 @@
       "endOfLine" : "lf",
       "indentSize" : 2
     }
+  }, {
+    "module" : "application-service-hexagonal-architecture-documentation",
+    "date" : "2023-12-08T07:29:37.793751Z",
+    "properties" : {
+      "packageName" : "com.mycompany.myapp",
+      "projectName" : "JHipster Sample Application",
+      "baseName" : "jhipsterSampleApplication",
+      "endOfLine" : "lf",
+      "indentSize" : 2
+    }
   } ]
 }

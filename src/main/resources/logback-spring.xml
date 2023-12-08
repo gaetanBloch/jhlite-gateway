@@ -36,6 +36,7 @@
   <logger name="org.hibernate.ejb.HibernatePersistence" level="OFF" />
   <logger name="org.postgresql" level="WARN" />
   <logger name="org.ehcache" level="WARN" />
+  <logger name="org.apache" level="ERROR" />
   <!-- jhipster-needle-logback-add-log -->
 
   <root level="${log.level}">

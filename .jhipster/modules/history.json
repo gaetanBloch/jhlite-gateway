@@ -479,5 +479,17 @@
       "serverPort" : 8080,
       "configurationFormat" : "yaml"
     }
+  }, {
+    "module" : "hibernate-2nd-level-cache",
+    "date" : "2023-12-08T07:35:35.694707Z",
+    "properties" : {
+      "packageName" : "com.mycompany.myapp",
+      "projectName" : "JHipster Sample Application",
+      "baseName" : "jhipsterSampleApplication",
+      "endOfLine" : "lf",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "configurationFormat" : "yaml"
+    }
   } ]
 }

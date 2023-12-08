@@ -56,5 +56,6 @@ docker compose -f src/main/docker/postgresql.yml up -d
 - [sonar](documentation/sonar.md)
 - [Mongo DB](documentation/mongo-db.md)
 - [Postgresql](documentation/postgresql.md)
+- [Dev tools](documentation/dev-tools.md)
 
 <!-- jhipster-needle-documentation -->

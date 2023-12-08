@@ -62,5 +62,6 @@ docker compose -f src/main/docker/kafka.yml up -d
 - [Postgresql](documentation/postgresql.md)
 - [Dev tools](documentation/dev-tools.md)
 - [Apache Kafka](documentation/apache-kafka.md)
+- [Caffeine](documentation/caffeine.md)
 
 <!-- jhipster-needle-documentation -->

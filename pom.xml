@@ -44,6 +44,7 @@
     <spring-cloud.version>2023.0.0</spring-cloud.version>
     <spring-cloud-netflix-eureka-client.version>4.1.0</spring-cloud-netflix-eureka-client.version>
     <cucumber.version>7.14.1</cucumber.version>
+    <springdoc-openapi-starter-webflux.version>2.3.0</springdoc-openapi-starter-webflux.version>
   </properties>
 
   <dependencyManagement>
@@ -219,6 +220,18 @@
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-gateway</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springdoc</groupId>
+      <artifactId>springdoc-openapi-starter-webflux-ui</artifactId>
+      <version>${springdoc-openapi-starter-webflux.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springdoc</groupId>
+      <artifactId>springdoc-openapi-starter-webflux-api</artifactId>
+      <version>${springdoc-openapi-starter-webflux.version}</version>
     </dependency>
 
     <dependency>

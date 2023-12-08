@@ -21,10 +21,6 @@
   <logger name="org.jboss.logging" level="WARN" />
   <logger name="org.ehcache" level="WARN" />
   <logger name="com.tngtech.archunit" level="WARN" />
-  <logger name="org.apache" level="ERROR" />
-  <logger name="liquibase" level="WARN" />
-  <logger name="LiquibaseSchemaResolver" level="INFO" />
-  <logger name="com.zaxxer.hikari" level="WARN" />
   <!-- jhipster-needle-logback-add-log -->
 
   <root level="${log.level}">

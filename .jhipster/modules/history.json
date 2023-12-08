@@ -467,53 +467,5 @@
       "serverPort" : 8080,
       "configurationFormat" : "yaml"
     }
-  }, {
-    "module" : "consul",
-    "date" : "2023-12-08T07:31:39.640942Z",
-    "properties" : {
-      "packageName" : "com.mycompany.myapp",
-      "projectName" : "JHipster Sample Application",
-      "baseName" : "jhipsterSampleApplication",
-      "endOfLine" : "lf",
-      "indentSize" : 2,
-      "serverPort" : 8080,
-      "configurationFormat" : "yaml"
-    }
-  }, {
-    "module" : "git-information",
-    "date" : "2023-12-08T07:31:39.706063Z",
-    "properties" : {
-      "packageName" : "com.mycompany.myapp",
-      "projectName" : "JHipster Sample Application",
-      "baseName" : "jhipsterSampleApplication",
-      "endOfLine" : "lf",
-      "indentSize" : 2,
-      "serverPort" : 8080,
-      "configurationFormat" : "yaml"
-    }
-  }, {
-    "module" : "hibernate-2nd-level-cache",
-    "date" : "2023-12-08T07:31:39.766918Z",
-    "properties" : {
-      "packageName" : "com.mycompany.myapp",
-      "projectName" : "JHipster Sample Application",
-      "baseName" : "jhipsterSampleApplication",
-      "endOfLine" : "lf",
-      "indentSize" : 2,
-      "serverPort" : 8080,
-      "configurationFormat" : "yaml"
-    }
-  }, {
-    "module" : "liquibase",
-    "date" : "2023-12-08T07:31:39.826769Z",
-    "properties" : {
-      "packageName" : "com.mycompany.myapp",
-      "projectName" : "JHipster Sample Application",
-      "baseName" : "jhipsterSampleApplication",
-      "endOfLine" : "lf",
-      "indentSize" : 2,
-      "serverPort" : 8080,
-      "configurationFormat" : "yaml"
-    }
   } ]
 }

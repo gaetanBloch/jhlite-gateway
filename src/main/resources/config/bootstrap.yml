@@ -16,3 +16,21 @@ spring:
 jhipster:
   registry:
     password: admin
+eureka:
+  instance:
+    health-check-url-path: ${management.endpoints.web.base-path}/health
+    instance-id: jhipstersampleapplication:${spring.application.instance-id:${random.value}}
+    status-page-url-path: ${management.endpoints.web.base-path}/info
+    lease-renewal-interval-in-seconds: 5
+    appname: jhipstersampleapplication
+    lease-expiration-duration-in-seconds: 10
+  client:
+    register-with-eureka: true
+    registry-fetch-interval-seconds: 10
+    healthcheck:
+      enabled: true
+    instance-info-replication-interval-seconds: 10
+    service-url:
+      defaultZone: http://admin:admin@localhost:8761/eureka
+    fetch-registry: true
+    enabled: true

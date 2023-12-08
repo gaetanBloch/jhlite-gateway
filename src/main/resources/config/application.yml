@@ -99,3 +99,5 @@ management:
       probes:
         enabled: true
       show-details: always
+server:
+  port: 8080

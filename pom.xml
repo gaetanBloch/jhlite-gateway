@@ -31,7 +31,7 @@
     <spring-boot.version>3.2.0</spring-boot.version>
     <reflections.version>0.10.2</reflections.version>
     <testcontainers.version>1.17.6</testcontainers.version>
-    <kafka-clients.version>3.6.1</kafka-clients.version>
+    <kafka-clients.version>3.7.1</kafka-clients.version>
     <node.version>v20.10.0</node.version>
     <npm.version>10.2.5</npm.version>
     <checksum-maven-plugin.version>1.11</checksum-maven-plugin.version>
